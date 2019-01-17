@@ -1,0 +1,44 @@
+body, html {
+  height: 100%;
+}
+
+.bg {
+	background-image: url("lake.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+h1 {
+	color: white;
+	justify-content: center;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	position: static;
+}
+
+h2 {
+	color: #F6873E;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+
+.round {
+  border-radius: 24px;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
